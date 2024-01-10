@@ -591,8 +591,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Hvem er jeg?</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Dette er en spill. Du skal gjette hvem historisk person jeg er. Begynn med å skrive "Start"</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>IKT Rådgiveren</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>jeg er her for å hjelpe deg med dine IKT problemer hva enn de kan være!</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
